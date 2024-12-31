@@ -1,0 +1,23 @@
+{
+  "name": "backend-luis",
+  "version": "1.0.0",
+  "description": "Projeto Back End Geracao Tech",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Carlos e Carlos Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  }
+}

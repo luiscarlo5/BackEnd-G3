@@ -2,10 +2,10 @@ const { Sequelize, DataTypes } = require("sequelize");
 
 const connection = new Sequelize({
     dialect: 'mysql',
-    database: 'bd_back_end',
+    database: 'seu-back-end',
     host: 'localhost',
-    username: 'root',
-    password: 'root',
+    username: 'seu-username',
+    password: 'sua senha',
     port: 3306
 });
 

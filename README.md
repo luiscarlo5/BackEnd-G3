@@ -5,6 +5,12 @@ O objetivo é atender aos requisitos funcionais, de qualidade de código, banco 
 
 Com este projeto eu fui capaz de criar um sistema Back End em Node.js que tenha segurança, arquitetura padrão MVC e funcionalidade com Banco de Dados SQL. Esse projeto pode e deve servir como base para projetos futuros profissionais e pessoais.
 
+Neste projeto, implementei uma API RESTful utilizando Node.js com Express.js, estruturada de forma modular para facilitar a manutenção e escalabilidade. Configurei o ambiente com dotenv para gerenciamento seguro de variáveis de configuração e usei Nodemon para otimizar o fluxo de desenvolvimento.
+
+A persistência de dados foi feita com MySQL, e utilizei o Sequelize como ORM para manipular o banco de dados de forma mais produtiva. Criei tabelas para usuários, categorias, produtos, imagens de produtos, opções de produtos e a relação produtos-categorias, garantindo integridade e relacionamentos adequados.
+
+Os endpoints seguem os padrões REST, retornando os códigos HTTP corretos, como 200 OK, 201 CREATED, 204 No Content, 400 Bad Request, 401 Unauthorized e 404 Not Found, garantindo respostas consistentes para cada situação. Implementei CRUD completo para usuários, categorias e produtos, incluindo criação, leitura, atualização e exclusão de registros.
+
 ---
 
 ## Tecnologias Utilizadas
@@ -51,3 +57,4 @@ npm start
 
 # Acesse pelo navegador
 http://localhost:3000
+

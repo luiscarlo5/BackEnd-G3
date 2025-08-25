@@ -1,1 +1,0 @@
-cnponsole.log("iuurru");
